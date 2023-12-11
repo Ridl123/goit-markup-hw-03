@@ -140,7 +140,7 @@ body {
   gap: 24px;
 }
 .strong-points-list-element {
-  width: calc((100% - 3 * 24px) / 4);
+  width: 264px;
 }
 .strong-points-title {
   font-weight: 500;
@@ -174,7 +174,7 @@ body {
   gap: 24px;
 }
 .activity-list-element {
-  width: calc((100% - 3 * 16px) / 3);
+  width: 264px;
 }
 
 .our-team-section {
@@ -187,7 +187,7 @@ body {
 }
 .team-member {
   background-color: #ffffffff;
-  width: calc((100% - 3 * 24px) / 4);
+  width: 264px;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
   border-top-right-radius: 4px;
@@ -267,8 +267,7 @@ body {
   row-gap: 48px;
 }
 .projects-list-element {
-  /* width: calc((100% - 48px) / 3); */
-  width: calc((100% - 3 * 16px) / 3);
+  width: 264px;
 }
 .row-element-link {
   font-weight: 500;
