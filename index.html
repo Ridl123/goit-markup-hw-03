@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Modern-Normalize -->
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
+    <!-- Other Styles -->
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -14,15 +20,15 @@
   </head>
   <body>
     <!-- Header -->
-    <header>
+    <header class="header">
       <!-- Navigation Menu -->
-      <nav class="list">
+      <nav class="list nav-list">
         <!-- Logo -->
         <a class="logo link" href="./index.html">
           Web<span class="logo-studio-header">Studio</span>
         </a>
         <!-- Navigation List -->
-        <ul class="list">
+        <ul class="list nav-list">
           <li>
             <a href="./index.html" class="nav-link link">Studio</a>
           </li>
@@ -36,7 +42,7 @@
       </nav>
       <!-- Adress List -->
       <address class="adresses">
-        <ul class="list">
+        <ul class="list nav-list">
           <li>
             <a href="mailto:info@devstudio.com" class="adress-link link"
               >info@devstudio.com</a
@@ -62,7 +68,7 @@
       <!-- Strong Points Section -->
       <section class="strong-points-section">
         <h2>Strong Points</h2>
-        <ul class="list">
+        <ul class="list strong-points-list">
           <li>
             <h3 class="strong-points-title">Strategy</h3>
             <p class="strong-points-paragraph">
@@ -95,9 +101,9 @@
       </section>
 
       <!-- What are we doing section -->
-      <section>
+      <section class="what-are-we-doing-section">
         <h2 class="section-title">What are we doing</h2>
-        <ul class="list">
+        <ul class="list activity-list">
           <li>
             <img src="./images/mainpage/box1.jpg" alt="Imagine 1" width="360" />
           </li>
@@ -113,7 +119,7 @@
       <!-- Our Team section -->
       <section class="our-team-section">
         <h2 class="section-title">Our Team</h2>
-        <ul class="list">
+        <ul class="list team-list">
           <li class="team-member">
             <img
               src="./images/mainpage/team/MarkGuerrero.jpg"

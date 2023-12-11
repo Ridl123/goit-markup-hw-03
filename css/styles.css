@@ -12,6 +12,11 @@ body {
   background-color: var(--white);
 }
 /* Classes */
+.header {
+  padding: 24px 156px;
+  display: flex;
+  flex-shrink: 0;
+}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -30,6 +35,11 @@ body {
 .list {
   list-style: none;
 }
+.nav-list {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
 .nav-link {
   font-weight: 500;
   font-size: 16px;
@@ -43,6 +53,7 @@ body {
 }
 .adresses {
   font-style: normal;
+  margin-left: 292px;
 }
 .adress-link {
   font-size: 16px;
@@ -57,6 +68,11 @@ body {
 
 .hero-section {
   background-color: var(--logo-studio-header);
+  padding: 188px 472px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
 }
 .hero-title {
   font-size: 56px;
@@ -80,6 +96,18 @@ body {
   background-color: #404bbf;
 }
 
+.strong-points-section {
+  padding: 120px 156px;
+}
+.strong-points-list {
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  gap: 24px;
+}
+/* .strong-points-list :nth-child(n + 1) {
+  gap: 24px;
+} */
 .strong-points-title {
   font-weight: 500;
   font-size: 20px;
@@ -94,6 +122,9 @@ body {
   color: var(--adress-link);
 }
 
+.what-are-we-doing-section {
+  padding: 120px 156px;
+}
 .section-title {
   font-size: 36px;
   line-height: 1.11;
@@ -101,17 +132,33 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--logo-studio-header);
+  margin-bottom: 72px;
+}
+.activity-list {
+  display: flex;
+  gap: 24px;
 }
 
 .our-team-section {
   background-color: #f4f4fd;
+  padding: 120px 156px;
+}
+.team-list {
+  display: flex;
+  gap: 24px;
 }
 .team-member {
   background-color: #ffffffff;
+  text-align: center;
 }
+/* .team-member h3,
+.team-member p {
+  align-items: center;
+} */
 
 .footer {
   background-color: var(--logo-studio-header);
+  padding: 101.5px 1020px 100px 156px;
 }
 .logo-studio-footer {
   color: #f4f4fd;
@@ -123,6 +170,12 @@ body {
 }
 
 /* for Portfolio */
+.filters-list {
+  padding: 96px 427px 72px 427px;
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
 .filter-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -137,6 +190,15 @@ body {
 .filter-button:focus {
   color: #ffffffff;
   background-color: #404bbf;
+}
+.projects-list {
+  padding-left: 156px;
+  padding-right: 156px;
+  padding-bottom: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 .row-element-link {
   font-weight: 500;

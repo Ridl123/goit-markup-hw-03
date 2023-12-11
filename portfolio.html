@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Modern-Normalize -->
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
+    <!-- Other Styles -->
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -14,15 +20,15 @@
   </head>
   <body>
     <!-- Header -->
-    <header>
+    <header class="header">
       <!-- Navigation Menu -->
-      <nav class="list">
+      <nav class="list nav-list">
         <!-- Logo -->
         <a class="logo link" href="./index.html">
           Web<span class="logo-studio-header">Studio</span>
         </a>
         <!-- Navigation List -->
-        <ul class="list">
+        <ul class="list nav-list">
           <li>
             <a href="./index.html" class="nav-link link">Studio</a>
           </li>
@@ -36,7 +42,7 @@
       </nav>
       <!-- Adress List -->
       <address class="adresses">
-        <ul class="list">
+        <ul class="list nav-list">
           <li>
             <a href="mailto:info@devstudio.com" class="adress-link link"
               >info@devstudio.com</a
@@ -56,7 +62,7 @@
       <section>
         <h1>Portfolio</h1>
         <!-- Page Filters section-->
-        <ul class="list">
+        <ul class="list filters-list">
           <li>
             <button type="button" class="filter-button">All</button>
           </li>
@@ -75,7 +81,7 @@
         </ul>
 
         <!-- Row Projects -->
-        <ul class="list">
+        <ul class="list projects-list">
           <li>
             <a href="" class="link row-element-link">
               <img
